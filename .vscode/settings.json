@@ -1,3 +1,8 @@
+
 {
-    "python.defaultInterpreterPath": "./lab/.venv/bin/python"
+    "python.defaultInterpreterPath": "./lab/.venv/bin/python",
+    "jupyter.jupyterInterruptTimeout": 100000,
+    "jupyter.jupyterCommandLineArguments": [
+        
+    ]
 }
