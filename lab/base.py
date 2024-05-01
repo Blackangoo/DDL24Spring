@@ -4,8 +4,8 @@ from torchvision import datasets, transforms
 
 data_path_str = "./data"
 ETA = "\N{GREEK SMALL LETTER ETA}"
-# device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-device = torch.device("cpu")
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+#device = torch.device("cpu")
 torch.backends.cudnn.deterministic=True
 
 transform = transforms.Compose([
